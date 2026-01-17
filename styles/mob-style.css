@@ -1,5 +1,32 @@
 @media screen and (max-width: 576px) {
-    h1 {
-        background-color: aquamarine;
+    nav, .nav-links ul {
+        flex-direction: column;
     }
+    .nav-links ul {
+        gap: 5px;
+    }
+
+    .header-banner {
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .banner-content h1 {
+        line-height: 42px;
+        font-size: 28px;
+    }
+
+    .sponsors-list {
+        width: 83%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .sponsors-list img {
+        width: 52px;
+        height: 15px;
+    }
+
+
 }
