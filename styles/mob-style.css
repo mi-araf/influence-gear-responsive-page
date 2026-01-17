@@ -29,10 +29,30 @@
     }
 
     .popular {
+        /* TODO: cut display */
+        display: none;
         width: 93%;
     }
     .cards-container {
         grid-template-columns: 1fr;
+    }
+
+    .feature {
+        width: 90%;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 35px;
+    }
+    .feature-image img {
+        width: 100%;
+    }
+    .feature-content h2 {
+        font-size: 24px;
+    }
+    .feature-content p {
+        width: 95%;
+        margin: 16px auto;
+        margin-bottom: 30px;
     }
 
 

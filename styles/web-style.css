@@ -153,3 +153,28 @@ nav {
     letter-spacing: 1.8%;
     color: #787885;
 }
+
+.feature-content .btn-primary {
+    border-radius: 0;
+}
+.feature {
+    width: 73%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+}
+.feature-content h2 {
+    font-size: 38px;
+    color: #0A0826;
+    font-weight: bold;
+}
+.feature-content p {
+    width: 80%;
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 16px 0;
+}

@@ -1,8 +1,16 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    h1 {
-        color: coral;
-        background-color: bisque;
-        font-style: italic;
-        text-transform: uppercase;
+
+    .sponsors-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
+    .popular {
+        width: 93%;
+    }
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
