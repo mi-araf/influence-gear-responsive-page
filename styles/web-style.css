@@ -104,7 +104,7 @@ nav {
 /* main */
 .popular {
     width: 65%;
-    margin: 95px auto;
+    margin: 95px auto 10px;
 }
 .popular h2 {
     text-align: center;
@@ -177,4 +177,34 @@ nav {
     font-weight: bold;
     line-height: 28px;
     margin: 16px 0;
+}
+
+
+/* footer */
+footer {
+    background-color: #0A0826;
+    color: #FFFFFF;
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 50px 0;
+}
+footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 3px 0 17px;
+}
+.social-icons a {
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: 4px;
+    margin-right: 14px;
 }

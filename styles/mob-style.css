@@ -29,8 +29,6 @@
     }
 
     .popular {
-        /* TODO: cut display */
-        display: none;
         width: 93%;
     }
     .cards-container {
@@ -55,5 +53,7 @@
         margin-bottom: 30px;
     }
 
-
+    footer {
+        margin-top: 50px !important;
+    }
 }
